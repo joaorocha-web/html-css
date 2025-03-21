@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+        body{
+            background-color: beige
+            
+        }
+        header{
+            padding: 20px ;
+            background-image: linear-gradient(to right, rgb(2, 255, 2), rgb(157, 255, 0)
+            );
+           box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.231) ;
+            
+        }
+        h1{
+            text-align: center;
+            margin-top: 5px;
+            padding: 5px;
+        }
+       
+        nav>a { 
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 8px;
+            margin: 5px;
+            text-align: left;
+            background-color: beige;
+            border-radius: 5px 15px;
+            box-shadow: inset 1px 4px 8px rgba(147, 219, 38, 0.642);
+        }
+        nav:hover> a {
+            text-decoration: none;
+           border-radius: 15px 5px;
+        }
+        main{
+            padding: 20px 25px 50px 25px;
+        }
+        .quem {
+            background-color: white;
+            border-left: 20px;
+            border: 10px solid greenyellow;
+            border-radius: 10px;
+            padding: 10px 10px;
+            
+            box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.212);
+        }
+        .quem > h2{
+            margin: 0px;
+        }
+        #nossos {
+            text-align: center;
+        }
+        article > ul{
+            color: white;
+            background-image: linear-gradient(60deg, rgb(110, 0, 174), rgb(174, 0, 255), #ffcc00);
+            border-radius: 10px 50px;
+            padding: 10px 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            box-shadow: 1px 5px 6px #0000004e;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            height: 60px;
+            padding: 20px;
+            text-align: center;
+        }
+       
+        div.video {
+            background-color: black;
+            margin: 30px -25px 50px -25px;
+            padding: 10px;
+            padding-bottom: 57%;
+            position: relative;
+        }
+
+        div.video >iframe {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }
+        #logo{
+            background-color: #121212;
+            margin: 0px;
+            box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.352);
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <h1>SeedAds agency</h1>
+        <nav>
+            <a href="caixas01.html">Nossos Profissionais</a>
+
+           
+        </nav>
+   </header>
+   <main>
+        <section id="quem somos">
+            <article class="quem">
+                <h2>Quem Somos?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quidem labore cupiditate laborum suscipit ducimus. Dolore, atque magni. Mollitia eos consequatur fuga fugit, corrupti ipsam alias. Quas amet explicabo culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime beatae soluta consequatur quibusdam aliquam, reprehenderit et nisi eum, molestias nobis error? Hic dolores ab dolor possimus nobis omnis architecto dolorem.</p>
+            </article>
+            <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/xS2D9x8odoE?si=a0zLonj6Xv0iQ9ai" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        </section>
+        <section id="nossos serviços">
+            <article>
+                <h2 id="nossos">Nossos serviços</h2>
+                <ul>
+                    <Li>Tráfego Pago</Li>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis dolorum optio quo, minus dolores minima praesentium, enim tenetur ducimus blanditiis mollitia, sunt accusamus sint aspernatur nostrum nobis delectus odio suscipit!</p>
+                    <li>Assistência estratégia em Marketing</li>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus deleniti cumque reprehenderit similique facere a earum dolores culpa repellendus, fugiat numquam maxime sequi ut, deserunt autem magnam aspernatur, atque nam.</p>
+                    <Li>Elaboração de copys que vendem mais</Li> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione enim dolorem quaerat reprehenderit error? Numquam, ipsa magnam molestiae tempore itaque vero deserunt quae quidem culpa. Quae eligendi odit cum dignissimos.</p>
+
+                </ul>
+            </article>
+            
+        </section>
+        <section id="logo">
+            <img src="imagem/ SeedAds (modificada).jpg" alt="">
+        </section>
+   </main>
+   <footer>
+    <p>Produzido por João &trade; &reg; &copy;</p>
+   </footer>
+</body>
+</html>

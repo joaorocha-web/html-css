@@ -1,0 +1,42 @@
+@charset "UTF-8"
+
+
+p{
+    text-align: justify;
+}
+body{
+    background-image: linear-gradient(to right,#52E600, #B0E600)
+}
+main{
+    background-color: #ffffff
+    ;
+    width:80%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.505);
+    margin: auto;
+    padding: 25px;
+}
+main:hover {
+    box-shadow: 30px 30px 20px rgba(0, 0, 0, 0.505);
+    width:85%;
+    margin: 100 auto 200 auto;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.identidade:hover{
+    text-transform: uppercase;
+}
+.serviços:hover{
+    color: #B0E600;
+}
+#enfase {
+    color: white;
+}
+img { 
+    display: block;
+    margin: auto;
+}
