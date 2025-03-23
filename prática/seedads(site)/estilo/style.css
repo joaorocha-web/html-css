@@ -128,3 +128,13 @@ strong {
     font-weight: bolder;
     color: var(--cor1);
 }
+
+img{
+    display: block;
+border-radius: 50%;
+height: 150px;
+box-shadow:1px 2px 8px black;
+margin: 5px auto 15px auto;
+padding-bottom: 7px ;
+background-color: var(--cor1)
+}
