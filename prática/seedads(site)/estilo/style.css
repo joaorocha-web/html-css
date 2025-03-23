@@ -25,7 +25,8 @@ header{
 }
 
 header >h1 {
-    padding: 20px;
+    padding: 70px 0px 10px 0px;
+
     font-size: 2.5em;
 }
 
@@ -34,6 +35,8 @@ header >p{
     color: var(--cor3);
     font-weight: bolder;
     font-style: italic;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 nav{
@@ -61,7 +64,8 @@ body{
 }
 
 p{
-    margin: 10px 0px;
+    padding: 10px;
+    text-align: justify;
 }
 
 main{
@@ -71,7 +75,7 @@ main{
     margin-bottom: 20px;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.313);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -82,9 +86,15 @@ main h1{
     line-height: 1.5em;
 }
 
-article img{
-    display: block;
-    margin: 20px auto 30px auto;
+
+#imagem{
+    margin: 50px 0px;
+    height: 300px;
+    background-color: black;
+    background-image: url("../imagens/seedads-logo-modificado.jpg");
+    background-position: center top;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 h2{
