@@ -138,3 +138,29 @@ margin: 5px auto 15px auto;
 padding-bottom: 7px ;
 background-color: var(--cor1)
 }
+
+aside >h3{
+    padding: 30px 0px 15px 0px;
+}
+
+#profissionais{
+   
+    margin: 40px 0px 30px 10px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.486);
+    width: 300px;
+    height: 308px;
+}
+
+#mapa{
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.486);
+    margin: 30px 0px 20px 10px;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: var(--cor4);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
