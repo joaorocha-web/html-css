@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OutPut</title>
+</head>
+<body>
+    <h1>Um pouco de programação</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="in1">Número 1: </label>
+            <input type="number" name="n1" id="in1" oninput="isoma.innerHTML=Number(in1.value)+ Number(in2.value)">
+        </p>
+        <p>
+            <label for="in2">Número 2: </label>
+            <input type="number" name="n2" id="in2" oninput="isoma.innerHTML=Number(in1.value)+ Number(in2.value)">
+        
+        </p>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="Soma" id="isoma"> 0
+             
+            </output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <p>Outro exemplo: </p>
+    <form action="cadastro.php" method="get" autocomplete="on">
+      <label for="inivel">Nível de satisfação: </label>
+      <input type="range" name="Nível" id="inivel" min="0" max="10" value="5" oninput="ival.innerHTML= Number(inivel.value)">
+      <output id="ival">5</output>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <p>outro exemplo</p>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iano">Em que ano você nasceu?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2025" oninput="calcidade()">
+            
+        </p>
+        <p>
+            <label for="iidade">Sua idade é: </label>
+            <output id="iidade">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <script>
+       function calcidade() {
+        let atual = new Date().getFullYear()
+        iidade.innerHTML = Number(atual)-Number(iano.value)
+       }
+    </script>
+</body>
+</html>
