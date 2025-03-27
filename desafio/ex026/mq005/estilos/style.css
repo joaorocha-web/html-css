@@ -7,20 +7,21 @@
     
 }
 html, body{
-    background-color: lightgray;
+    background-color:#d3a27f;
 }
 
 header {
-    background-color: darkgray;
+    background-color: #633309;
 }
 
 header>h1{
     padding: 30px;
     text-align: center;
+    color: white;
 }
 
 #icone {
-    background-color: rgb(56, 56, 56);
+    background-color: #1f1204;
     display: block;
     color: white;
     text-align: center;
@@ -46,14 +47,15 @@ menu > ul > li > a{
     padding: 10px;
     display: block;
     text-decoration: none;
-    background-color: rgb(88, 88, 88);
+    background-color: #341d08;
     color: white;
     text-align: center;
     border-top: 1px solid gray;
 }
 
 menu > ul > li > a:hover{
-    background-color: gray;
+    background-color: #ffffff;
+    color: black;
 }
 
 main{
@@ -63,6 +65,7 @@ main{
     margin: auto;
     border-radius: 10px;
     margin-top: 10px ;
+    margin-bottom: 20px;
 }
 
 article > h2{
