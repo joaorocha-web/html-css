@@ -11,13 +11,18 @@ html, body{
 }
 
 header {
-    background-color: #633309;
+    background-image: url(../imagens/img-biblia.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 header>h1{
-    padding: 30px;
+    padding: 40px;
     text-align: center;
     color: white;
+    text-shadow: 2px 2px 0px black;
 }
 
 #icone {
@@ -26,6 +31,7 @@ header>h1{
     color: white;
     text-align: center;
     padding: 10px
+    
 }
 
 #icone:hover{
