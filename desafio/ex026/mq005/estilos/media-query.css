@@ -38,6 +38,7 @@
    main{
     margin-top: 0px;
     border-radius: 0px 0px 10px 10px;
+    max-width: 1000px;
    }
 
    article > img{
