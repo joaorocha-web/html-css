@@ -91,6 +91,27 @@ article > p{
     text-indent: 20px;
 }
 
+#efesios{
+    border-radius: 20px;
+    margin: 30px auto 30px auto;
+    display: block;
+    box-shadow:  0px 1px 4px black; 
+}
+
+#roma{
+    border-radius: 20px;
+    margin: 30px auto 30px auto;
+    display: block;
+    box-shadow:  0px 1px 4px black; 
+}
+
+#jerusalem{
+    border-radius: 20px;
+    margin: 30px auto 30px auto;
+    display: block;
+    box-shadow:  0px 1px 4px black;
+}
+
 footer{
     background-color: #1f1204;
     color: white;
