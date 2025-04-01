@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Seed Ads</h1>
+        <p>Prontos para despertar o potencial da sua empresa!</p>
+    </header>
+    <nav>
+        <a href="#">Sobre nós</a>
+        <a href="#">Nossos planos</a>
+        <a href="contato.html">Fale conosco</a>
+    </nav>
+
+    <Section>
+        <div>
+            <h2>Preencha com seus dados</h2>
+            <form action="form.php" method="get">
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome">
+                <label for="iemp">Empresa: </label>
+                <input type="tel" name="emp" id="iemp">
+                <label for="ifat">Faturamento mensal (média): </label>
+                <input type="number" name="fat" id="ifat">
+                <label for="iemail">Email para contato: </label>
+                <input type="email" name="email" id="iemail">
+                <input type="button" value="Enviar" onclick="mostrar()">
+            </form>
+        </div>
+        <div id="dados">
+
+        </div>
+    </Section>
+    <script src="teste.js"></script>
+</body>
+</html>
