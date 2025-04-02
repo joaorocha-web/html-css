@@ -124,10 +124,7 @@ div.video >iframe{
     border-radius: 10px;
 }
 
-strong {
-    font-weight: bolder;
-    color: var(--cor1);
-}
+
 
 img{
     display: block;
